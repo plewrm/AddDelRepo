@@ -8,11 +8,17 @@ import Login from './Pages/login';
 import Protected from "./Components/Protected"
 import GetData from './Components/GetData';
 import AddData from './Components/AddData';
+import Create from './Create';
+import DataTime from './Pages/datetime';
+import Grettings from './Pages/Greetings/grettings'
 function App() {
   return (
-    <div className="App">
-    <AddData/>
-    <GetData/>
+    <div >
+    {/* <Grettings/> */}
+    <DataTime/>
+    {/* <Create/> */}
+    {/* <AddData />
+    <GetData/> */}
     {/* <BrowserRouter>
        <NavBar/>
 <Routes>

@@ -17,9 +17,7 @@ function Users() {
     });
   }
 
-//   function updateHandle(id){
-// setNa
-//   }
+
 
   function deletHandle(id) {
     fetch(`http://localhost:3000/Data/${id}`, {
