@@ -11,11 +11,13 @@ import AddData from './Components/AddData';
 import Create from './Create';
 import DataTime from './Pages/datetime';
 import Grettings from './Pages/Greetings/grettings'
+import DataProps from './DataProp/DataProps';
 function App() {
   return (
     <div >
+    <DataProps/>
     {/* <Grettings/> */}
-    <DataTime/>
+    {/* <DataTime/> */}
     {/* <Create/> */}
     {/* <AddData />
     <GetData/> */}
